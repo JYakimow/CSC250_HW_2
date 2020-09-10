@@ -1,9 +1,18 @@
+//using my initial code from Homework 1 as a starting point.
+import java.util.Scanner; 
+
 public class Driver
 {
 	public static void main(String[] args)
 	{
+		
+		//input word to check from user
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Word or Phrase which you would like to evaluate.");
+		String aString = scan.nextLine();
+		
 		//create variables
-		String aString = "Galations";
+		//String aString = "Galations";
 		String vowels = "AEIOUaeiou";
 		int count = 0;
 		int stringLength = aString.length();
