@@ -10,6 +10,7 @@ public class Driver
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the Word or Phrase which you would like to evaluate.");
 		String aString = scan.nextLine();
+		scan.close();
 		
 		//create variables
 		//String aString = "Galations";
